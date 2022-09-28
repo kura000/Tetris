@@ -319,7 +319,7 @@ class Tetris
         }
 
         // スクリーン外の底を描画
-        for (int x = 0; x < Constants.fieldWidth + 4; x++)
+        for (int x = 0; x < Constants.fieldWidth + 2; x++)
         {
             Console.Write("=");
         }
